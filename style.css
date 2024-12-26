@@ -1,5 +1,5 @@
 body{
-    background-image: url(/images/background.jpg);
+    background-image: url(https://s3-alpha-sig.figma.com/img/6be8/1ded/01bf9b46702467c4f27a91e3cb251deb?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mmPPhJEBMsfgSYe~ldwLF2-VNu1Twf2AMnEf2e7SC0g6bUL1M8v3BBmmxvu4nSynR0sKtdPv2ESKy9Zcr3VXeJoidCdeUkJZmhRhYf7YzzqnInY4S-V6O91zlUFaYpaFfq7awTrXXQ0MwBBz0tDVSSIsNkA3Ynm03AwWQdqDodwRyoYZKihq3HfbOwvSjXS69eWV1mAmk~Ov6DGLLeJAiPaRiyMSVF5MQIxTNZWuIv4q-HAsH1qJ~Fyfr8Wf98KrgPXh3AEbV0rpP8RW6Ct5tKS8sAsD41XLBjCmJxC0off6QtPVGq-RpNrUuC0Md6mLsHVPpbc2yFOE4YDGJW~QcA__);
     background-size: cover;
     display: flex;
     justify-content: center;
