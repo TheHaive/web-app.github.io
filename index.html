@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Подключаем файл "style.css" со стилями -->
+    <link rel="stylesheet" href="style.css">
+    <title>FormDiet</title>
+</head>
+<body>
+    <!-- Основной контейнер со всем модержимым страницы для отобрадения белого полупрозрачного фона -->
+    <div class="container_body">
+
+        <!-- Заголовок страницы -->
+        <div class="header_container">
+            <h1 class="heading_style">Заполните данные</h1>
+        </div>
+
+        <!-- Контейнер для входных данных -->
+        <div class="sel_quests">
+
+            <!-- Входные данные о возраста  -->
+            <div class="question_container">
+                <h2 class="heading_style">Ваш возраст</h2>
+
+                <div class="heading_cont">
+                    <input type="number" name="input_age" id="age">
+                </div>
+            </div>
+
+            <!-- Входные данные о пола -->
+            <div class="question_container">
+                <h2 class="heading_style">Укажите ваш пол</h2>
+
+                <div class="heading_cont">
+                    <div class="input_cont">
+                        <input type="radio" name="sex" class="sex" id="sex_male" value="male">
+                        <label for="sex_male">Мужской</label>
+                    </div>
+                    <div class="input_cont">
+                        <input type="radio" name="sex" class="sex" id="sex_female" value="female">
+                        <label for="sex_female">Женский</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Входные данные цели -->
+            <div class="question_container">
+                <h2 class="heading_style">Ваша цель</h2>
+
+                <div class="heading_cont">
+                    <div class="input_cont">
+                        <input type="radio" name="goal" id="goal_1" value="gain_muscle" class="goal">
+                        <label for="goal_1">Набор мышечной массы</label>
+                    </div>
+                    <div class="input_cont">
+                        <input type="radio" name="goal" id="goal_2" value="gain_weight" class="goal">
+                        <label for="goal_2">Набор веса</label>
+                    </div>
+                    <div class="input_cont">
+                        <input type="radio" name="goal" id="goal_3" value="lose_weight" class="goal">
+                        <label for="goal_3">Похудение</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Входные данные предпочтений в еде -->
+            <div class="question_container">
+                <h2 class="heading_style">Предпочтения к еде</h2>
+
+                <div class="heading_cont">
+                    <div class="input_cont">
+                        <input type="radio" name="preferences" value="no_meat" id="preferences_1" class="preferences">
+                        <label for="preferences_1">Без мяса</label>
+                    </div>
+                    <div class="input_cont">
+                        <input type="radio" name="preferences" value="no_gluten" id="preferences_2" class="preferences">
+                        <label for="preferences_2">Без глютена</label>
+                    </div>
+                    <div class="input_cont">
+                        <input type="radio" name="preferences" value="no_dairy" id="preferences_3" class="preferences">
+                        <label for="preferences_3">Без молочных продуктов</label>
+                    </div>
+                    <div class="input_cont">
+                        <input type="radio" name="preferences" value="no_restrictions" id="preferences_4" class="preferences">
+                        <label for="preferences_4">Никаких ограничений</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Сообщение об ошибке -->
+        <p id="error"></p>
+
+        <!-- Кнопка отправки входных данных на сервер -->
+        <div class="btn_container">
+            <button class="btn_link" id="btn_link">Отправить</button>
+        </div>
+
+    </div>
+
+    <!-- Подключаем веб-приложение к телеграм -->
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+    <!-- Подключаем файл "script.js" со стилями -->
+    <script src="script.js"></script>
+</body>
+</html>
